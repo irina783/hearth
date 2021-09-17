@@ -7,7 +7,12 @@ body{
     width: 100%;
     border-collapse: collapse;
 }
-
+.image{
+    background-color: #0c131b;
+}
+.image-yellow{
+    background-color: #ebd2aa;
+}
 .button{
     width: 50%;
     border-collapse: collapse;
@@ -137,6 +142,7 @@ img{
 }
 .live{
     padding-left: 35px;
+    padding-right: 35px;
     background-color: #0d131b;
 }
 .live h2{
