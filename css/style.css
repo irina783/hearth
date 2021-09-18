@@ -23,7 +23,7 @@ body{
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.button td a{
+.fon-around-button a{
     color: #fffff8;
     font-weight: bold;
     text-decoration: none;
@@ -97,11 +97,13 @@ img{
 }
 .link{
     color: #fa5d26;
+    text-decoration: none;
 }
 .social-link{
     font-size: 14px;
     line-height: 22px;
     color: #b25000;
+    text-decoration: none;
 }
 .header,
 .witch-fox,
