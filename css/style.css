@@ -39,6 +39,7 @@ body{
 h1{
     margin: 0;
     font-size: 55px;
+    line-height: 1em;
     color: #20b4bb;
     font-weight: bold;
 }
@@ -46,15 +47,22 @@ h1{
     font-size: 36px;
     text-transform: uppercase;
 }
-.uppercase span{
+.uppercase{
+    padding-bottom: 8px;
+}
+.uppercase .heading{
     color: #9f15a9;
 }
 h2{
     margin: 0;
     font-size: 36px;
+    line-height: 1em;
     color: #bcbcbd;
     font-weight: bold;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
+}
+.header h1{
+    padding-bottom: 8px;
 }
 .social-heading,
 .communication,
@@ -114,7 +122,7 @@ img{
     width: 100%;
     padding-left: 45px;
     padding-right: 45px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     background-color: #0c131b;
 }
 
@@ -165,6 +173,9 @@ img{
     padding-left: 35px;
     padding-right: 35px;
     background-color: #0d131b;
+}
+.live-heading{
+    padding-bottom: 10px;
 }
 .live h2{
     font-size: 36px;
